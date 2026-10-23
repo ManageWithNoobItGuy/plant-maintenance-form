@@ -1,0 +1,20 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "plant-maintenance-form",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "plant-maintenance",
+      "database_id": "8463ef57-6d6d-46f2-9528-e775643f5665",
+      "migrations_dir": "./migrations"
+    }
+  ],
+  "observability": { "enabled": true }
+}
