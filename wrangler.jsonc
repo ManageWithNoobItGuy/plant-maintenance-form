@@ -12,7 +12,7 @@
     {
       "binding": "DB",
       "database_name": "plant-maintenance",
-      "database_id": "8463ef57-6d6d-46f2-9528-e775643f5665",
+      "database_id": "REPLACE_BY_NPM_RUN_SETUP",
       "migrations_dir": "./migrations"
     }
   ],

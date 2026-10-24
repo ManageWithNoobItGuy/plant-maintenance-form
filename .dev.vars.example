@@ -1,0 +1,4 @@
+# Local development only (npm run dev). Never use these on the live site.
+TECH_PIN=1111
+ENGINEER_PIN=2222
+SESSION_SECRET=local-dev-only-secret
